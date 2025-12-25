@@ -1,0 +1,38 @@
+Response to Reviewer 3430
+
+We sincerely thank the reviewer for the detailed and constructive comments, which helped us substantially improve the clarity, rigor, and positioning of our work.
+
+1. Writing and Method Issues
+
+Text duplication.  
+
+The duplicated sentence in Section 2.4 has been removed to avoid redundancy.
+
+Unclear hyperparameters.
+
+We have explicitly specified the radius of the circular low-frequency mask ($r_{low}=0.7$, $r_{high}=0.3$) in the Fourier preprocessing module.  
+In addition, we clarified that $\alpha^{attn}$ is obtained by passing per-channel frequency statistics through an MLP followed by a sigmoid activation, and this mapping is now explicitly described in both text and equations.
+
+Figure-text mismatch. 
+We clarified that the frequency masks are *hard binary masks* and updated both the main text and the caption of Fig. 1 accordingly.
+
+2. Experimental Reporting
+
+Undefined baseline (GSM).
+
+We added a formal definition and citation for GSM in the baseline description and reference list.
+
+AUC discussion.  
+
+To address concerns about AUC differences, we introduced a fixed-recall evaluation protocol (Recall = 0.90) and reported Precision and False Positive Rate (FPR) under this clinically relevant operating point.  
+The results show that FreqTrans achieves higher precision and lower FPR than competing methods under the same recall constraint (see `experiments/fixed_recall/`).
+
+3. Evaluation Strengthening
+
+We added comparisons with recent domain-specific methods, including HoVer-Trans and FABRF-Net, and included qualitative Grad-CAM visualizations to demonstrate that FreqTrans focuses more consistently on lesion boundaries rather than background regions (see `visualizations/gradcam/`).
+
+4. Literature and Citations
+
+We updated the literature review to include recent frequency-aware and hybrid architectures, unified citation formatting, and corrected the missing reference.
+
+We believe these revisions comprehensively address the reviewer’s concerns and significantly strengthen the manuscript.

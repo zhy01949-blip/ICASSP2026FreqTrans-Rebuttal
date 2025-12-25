@@ -1,0 +1,19 @@
+Response to Reviewer 8A1D
+
+We sincerely thank the reviewer for the highly positive and encouraging assessment of our work.
+
+We are pleased that the reviewer finds the proposed frequency-domain Transformer architecture conceptually sound, well motivated, and empirically convincing across datasets. In response to the minor concerns raised, we have made the following refinements:
+
+1. References and literature coverage.
+
+   We carefully reviewed the reference list, removed citations with limited relevance, and added several recent works on frequency-aware and hybrid medical image models to better position our contribution.
+
+2. Architecture justification and ablation clarity.
+
+   We slightly expanded the discussion of architectural design choices and streamlined the ablation analysis to avoid redundancy, while preserving the core empirical evidence supporting each module.
+
+3. Writing and structure.
+ 
+   Minor clarity and formatting issues were corrected throughout the manuscript to further improve readability and presentation quality.
+
+We appreciate the reviewer’s constructive feedback and believe these refinements further strengthen the manuscript without altering its core contributions or conclusions.

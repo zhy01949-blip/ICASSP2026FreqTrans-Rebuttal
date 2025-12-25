@@ -1,0 +1,18 @@
+Response to Reviewer 49A5
+
+We sincerely thank the reviewer for the detailed feedback regarding experimental validation and positioning.
+
+1. Baseline Selection
+
+We expanded the experimental comparison to include recent breast-ultrasound-specific and frequency-aware methods, including HoVer-Trans and FABRF-Net. This provides a stronger and more domain-relevant evaluation baseline.
+
+2. Novelty Clarification
+
+While frequency-domain analysis itself is not new, we clarified that our contribution lies in the *adaptive integration* of explicit frequency decomposition, frequency-domain attention, and transformer-based multi-scale modeling within a unified framework.  
+We revised the introduction to more clearly state the gap addressed by FreqTrans and how it differs from prior frequency-based methods.
+
+3. Strengthened Validation
+
+In addition to standard metrics, we introduced fixed-recall evaluation (Precision and FPR at Recall = 0.90) to better reflect clinical priorities. We also included qualitative Grad-CAM results to demonstrate improved lesion-focused attention.
+
+We believe these additions substantially strengthen both the experimental rigor and the positioning of the work.

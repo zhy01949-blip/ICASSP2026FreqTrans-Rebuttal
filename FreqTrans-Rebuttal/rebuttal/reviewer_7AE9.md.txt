@@ -1,0 +1,18 @@
+Response to Reviewer 7AE9
+
+We appreciate the reviewer’s critical perspective and the opportunity to further clarify the contribution and positioning of our work.
+
+1. Relation to Graph Neural Networks
+
+We agree that graph-based spectral methods (e.g., GCNs and GATs) are related in spirit. We have clarified in the manuscript that FreqTrans differs in that it performs *explicit frequency-band decomposition in the signal domain*, rather than implicitly learning spectral responses through graph filters.  
+This distinction enables more interpretable and controllable frequency fusion, which is particularly beneficial for noisy ultrasound data.
+
+2. Statistical Robustness
+
+We now report mean ± standard deviation over five independent runs for all main experiments and explicitly state the number of runs and random seeds. Detailed tables and raw results are provided in `experiments/std_results/`.
+
+3. Interpretation of Frequency Contributions
+
+We expanded the discussion to clarify the roles of low- and high-frequency components: low frequencies capture global tissue context, while high frequencies emphasize lesion boundaries and fine structures. Grad-CAM visualizations further support this interpretation by showing stronger boundary-focused activations in FreqTrans.
+
+These clarifications aim to better situate our contribution relative to existing spectral and graph-based approaches.

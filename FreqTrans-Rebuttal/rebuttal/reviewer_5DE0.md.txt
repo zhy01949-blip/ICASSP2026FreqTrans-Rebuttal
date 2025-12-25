@@ -1,0 +1,26 @@
+Response to Reviewer 5DE0
+
+We thank the reviewer for the thoughtful critique and valuable suggestions.
+
+1. Figure and Formatting Issues
+
+Figure annotation.
+
+We updated Fig. 1 to explicitly annotate $F^{fused}$ and clarified the data flow in the architecture diagram. The figure has been replaced with a vector-format PDF for improved readability.
+
+Capitalization and spacing. 
+
+Phrases such as “Multi-scale feature extraction and abstraction” are now consistently written in sentence case, and spacing issues after punctuation have been corrected throughout the manuscript.
+
+Missing references.
+
+We added appropriate citations for ResNet50, EfficientNet-B3, and GSM.
+
+2. Clinical Relevance and Qualitative Results
+
+To strengthen clinical interpretability, we added Grad-CAM visualizations comparing FreqTrans with recent methods on the same ultrasound images. These examples demonstrate improved localization around lesion boundaries rather than diffuse activations (see `visualizations/gradcam/`).
+
+3. Updated Baselines
+
+We incorporated recent and relevant methods, including FABRF-Net and HoVer-Trans, into the experimental comparison to better reflect the current state of the art.
+We believe these revisions address all raised concerns and improve both clarity and clinical relevance.

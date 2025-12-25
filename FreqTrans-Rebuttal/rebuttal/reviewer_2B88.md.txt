@@ -1,0 +1,17 @@
+Response to Reviewer 2B88
+
+We sincerely thank the reviewer for the strong endorsement of our work and the insightful suggestions.
+
+1. Figure Quality
+
+We replaced Fig. 1 with a vector-format (PDF) version to ensure high resolution and improved readability in both digital and printed formats.
+
+2. Symbol Definitions
+
+We added explicit definitions for all symbols, including $\alpha^{attn}$ and $\gamma_s$, in the method description and provided a notation clarification to ensure mathematical transparency.
+
+3. Baseline Expansion
+
+In response to the suggestion, we expanded the experimental comparison to include more recent and medical-oriented Transformer-based models, strengthening the relevance and fairness of the evaluation.
+
+We appreciate the reviewer’s recognition of the novelty, clinical relevance, and experimental rigor of our approach. The suggested improvements have been fully incorporated to further enhance clarity and completeness.
