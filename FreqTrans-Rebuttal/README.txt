@@ -1,84 +1,34 @@
-# FreqTrans: Rebuttal and Supplementary Materials
+FreqTrans: Rebuttal and Supplementary Materials
 
-This repository provides the revised manuscript, detailed responses to reviewers, and supplementary experimental materials for the paper:
+This repository provides supplementary materials referenced in the rebuttal for the paper:
 
-**FreqTrans: Adaptive Frequency Feature Fusion for Robust Breast Ultrasound Image Analysis**
+FreqTrans: Adaptive Frequency Feature Fusion for Robust Breast Ultrasound Image Analysis
+submitted to ICASSP 2024.
 
-submitted to **ICASSP**.
+The purpose of this repository is to support the rebuttal by providing additional experimental results and qualitative analyses that could not be included in the main paper due to strict page limitations.
 
-The goal of this repository is to transparently document all revisions, additional experiments, and analyses conducted in response to reviewer comments.
+Section 1. Revised Manuscript
 
----
+The repository includes the revised version of the manuscript addressing reviewer comments, as well as the original submission for reference.
 
-## 1. Revised Manuscript
+Section 2. Response to Reviewers
 
-- `paper/ICASSP_2024_revised.pdf`  
-  The revised version of the manuscript, addressing all reviewer comments, including:
-  - Clarified method descriptions and notation
-  - Improved figure resolution and annotations
-  - Added recent medical and frequency-aware baseline methods
-  - Refined experimental analysis and discussion
+A detailed point-by-point response to all reviewer comments is provided, explaining how each concern was addressed in the revised manuscript and where the corresponding changes were made.
 
-- `paper/ICASSP_2024_original.pdf`  
-  The original submission (for reference).
+Section 3. Additional Experimental Results
 
----
+Supplementary experimental results are provided to demonstrate robustness, including statistics over multiple runs with different random seeds.
 
-## 2. Response to Reviewers
+Section 4. Model Interpretability and Visualization
 
-- `rebuttal/Response_to_Reviewers.pdf`  
-  A point-by-point response to all reviewer comments, explicitly indicating:
-  - Each reviewer concern
-  - Corresponding revisions
-  - Exact sections, tables, or figures where changes were made
+Additional qualitative results are provided to improve interpretability, including Grad-CAM visualizations comparing baseline models and the proposed FreqTrans on breast ultrasound images.
 
-- `rebuttal/Change_Log.md`  
-  A concise summary of major changes between the original and revised versions.
+Section 5. Note on Supplementary Materials
 
----
+Due to the strict page limitations of ICASSP, some experimental details and visualizations are provided in this repository. All supplementary materials are consistent with the results reported in the revised manuscript.
 
-## 3. Additional Experiments and Statistical Results
+Contact
 
-Due to page limitations, some robustness analyses are provided here:
+For any questions regarding the supplementary materials, please contact the authors via the ICASSP submission system.
 
-- `experiments/stats_mean_std.txt`  
-  Mean ± standard deviation results over multiple runs with different random seeds.
 
-- `experiments/tables/`  
-  Raw experimental results on the UDIAT and BUSI datasets in CSV format.
-
----
-
-## 4. Model Interpretability and Visualization
-
-To improve clinical interpretability, additional qualitative results are provided:
-
-- `visualizations/GradCAM_UDIAT/`  
-- `visualizations/GradCAM_BUSI/`  
-
-These folders contain Grad-CAM visualizations comparing baseline models and FreqTrans, demonstrating improved lesion-focused attention.
-
----
-
-## 5. Summary of Revisions
-
-The revised manuscript includes the following key updates:
-
-- Added comparisons with recent domain-specific and frequency-aware methods (e.g., HoVer-Trans, FABRF-Net)
-- Reported robustness statistics (mean ± standard deviation) over multiple runs
-- Included additional interpretability analysis via Grad-CAM visualizations
-- Clarified frequency decomposition, fusion weights, and attention mechanisms
-- Improved overall presentation, formatting, and citation consistency
-
----
-
-## 6. Note on Supplementary Materials
-
-Due to the strict page limit of ICASSP, some experimental details and visualizations are provided in this GitHub repository.  
-All supplementary materials are consistent with the results reported in the revised manuscript.
-
----
-
-## Contact
-
-For any questions regarding the revisions or supplementary materials, please refer to the corresponding authors listed in the manuscript.
