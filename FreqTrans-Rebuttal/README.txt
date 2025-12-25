@@ -27,8 +27,8 @@ Section 5. Note on Supplementary Materials
 
 Due to the strict page limitations of ICASSP, some experimental details and visualizations are provided in this repository. All supplementary materials are consistent with the results reported in the revised manuscript.
 
-Contact
 
 For any questions regarding the supplementary materials, please contact the authors via the ICASSP submission system.
+
 
 
